@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio | Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <!-- Navbar -->
+    <header
+      class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800"
+    >
+      <nav
+        class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <a href="#about" class="text-lg font-semibold tracking-tight">
+          <span class="text-indigo-400">&lt;/&gt;</span> Gaurav Pramod Singh
+        </a>
+        <div class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#about" class="hover:text-indigo-400">About</a>
+          <a href="#skills" class="hover:text-indigo-400">Skills</a>
+          <a href="#projects" class="hover:text-indigo-400">Projects</a>
+          <a href="#experience" class="hover:text-indigo-400">Work</a>
+          <a href="#education" class="hover:text-indigo-400">Education</a>
+          <a href="#certifications" class="hover:text-indigo-400"
+            >Certifications</a
+          >
+          <a href="#contact" class="hover:text-indigo-400">Contact</a>
+          <a
+            href="assets/Your_Name_Resume.pdf"
+            target="_blank"
+            class="px-3 py-1 rounded-full border border-indigo-500 text-indigo-300 hover:bg-indigo-600 hover:text-white transition"
+          >
+            Resume
+          </a>
+        </div>
+        <!-- Mobile menu (simple) -->
+        <div class="md:hidden">
+          <button
+            id="menuButton"
+            class="p-2 border border-slate-700 rounded-lg text-slate-200"
+          >
+            ☰
+          </button>
+        </div>
+      </nav>
+      <!-- Mobile dropdown -->
+      <div
+        id="mobileMenu"
+        class="md:hidden hidden border-t border-slate-800 bg-slate-950"
+      >
+        <div class="max-w-5xl mx-auto px-4 py-3 flex flex-col gap-3 text-sm">
+          <a href="#about" class="hover:text-indigo-400">About</a>
+          <a href="#skills" class="hover:text-indigo-400">Skills</a>
+          <a href="#projects" class="hover:text-indigo-400">Projects</a>
+          <a href="#experience" class="hover:text-indigo-400">Work</a>
+          <a href="#education" class="hover:text-indigo-400">Education</a>
+          <a href="#certifications" class="hover:text-indigo-400"
+            >Certifications</a
+          >
+          <a href="#contact" class="hover:text-indigo-400">Contact</a>
+          <a
+            href="assets/Your_Name_Resume.pdf"
+            target="_blank"
+            class="px-3 py-1 rounded-full border border-indigo-500 text-indigo-300 hover:bg-indigo-600 hover:text-white transition w-max"
+          >
+            Resume
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 pt-10 pb-20 space-y-24">
+      <!-- About / Summary -->
+      <section id="about" class="pt-6">
+        <div class="grid md:grid-cols-[2fr,1fr] gap-10 items-center">
+          <div>
+            <p
+              class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+            >
+              About Me
+            </p>
+
+            <h1 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+              Hi, I'm <span class="text-indigo-400">Gaurav Pramod Singh</span> —
+              <span class="text-slate-300"
+                >Aspiring Software Developer & Data Analyst</span
+              >
+            </h1>
+
+            <p class="text-slate-300 leading-relaxed mb-4">
+              I am a graduate student at Oregon State University pursuing my
+              Master of Engineering in Computer Science. I enjoy building clean,
+              user-friendly applications and solving complex problems with code,
+              data, and smart system design. I’m passionate about both software
+              development and data analytics, and I love working across the full
+              stack — from interactive front-end UI to back-end logic and
+              databases.
+            </p>
+
+            <p class="text-slate-400 leading-relaxed mb-6">
+              My goals right now are to strengthen my skills in
+              <span class="text-slate-200 font-medium"
+                >JavaScript, React, Node.js, Python, and SQL</span
+              >, while showcasing impactful academic and personal projects. I’m
+              currently working on graphics programming, algorithms, and
+              full-stack development, building a portfolio that reflects
+              creativity, clean engineering, and results.
+            </p>
+
+            <div class="flex flex-wrap gap-3">
+              <a
+                href="#projects"
+                class="px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-500 transition"
+              >
+                View Projects
+              </a>
+              <a
+                href="#contact"
+                class="px-4 py-2 rounded-full border border-slate-600 text-sm font-medium hover:border-indigo-500 hover:text-indigo-300 transition"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+          <div class="flex justify-center md:justify-end">
+            <div
+              class="w-40 h-40 md:w-48 md:h-48 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-slate-700 p-[2px]"
+            >
+              <div
+                class="w-full h-full rounded-3xl bg-slate-950 flex items-center justify-center"
+              >
+                <!-- Replace this with your photo later -->
+                <span class="text-slate-500 text-xs text-center px-4">
+                  Your Photo / Logo Placeholder
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <p
+          class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+        >
+          Skills
+        </p>
+        <h2 class="text-2xl font-semibold mb-6">Tech Stack</h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+            <h3
+              class="text-sm font-semibold text-slate-100 mb-3 uppercase tracking-wide"
+            >
+              Languages
+            </h3>
+            <ul class="space-y-1 text-sm text-slate-300">
+              <li>JavaScript (ES6+)</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>HTML, CSS</li>
+            </ul>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+            <h3
+              class="text-sm font-semibold text-slate-100 mb-3 uppercase tracking-wide"
+            >
+              Frameworks & Tools
+            </h3>
+            <ul class="space-y-1 text-sm text-slate-300">
+              <li>React</li>
+              <li>Node.js / Express</li>
+              <li>Tailwind CSS</li>
+              <li>MongoDB / MySQL</li>
+            </ul>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
+            <h3
+              class="text-sm font-semibold text-slate-100 mb-3 uppercase tracking-wide"
+            >
+              Other
+            </h3>
+            <ul class="space-y-1 text-sm text-slate-300">
+              <li>Git & GitHub</li>
+              <li>REST APIs</li>
+              <li>Data Analysis (Pandas / Excel)</li>
+              <li>Basic Cloud / Deployments</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects (Placeholder) -->
+      <section id="projects">
+        <p
+          class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+        >
+          Projects
+        </p>
+        <h2 class="text-2xl font-semibold mb-2">Featured Projects</h2>
+        <p class="text-slate-400 text-sm mb-6">
+          I am currently organizing and polishing my projects. They will be
+          added here soon. For now, this section is a placeholder.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Project card placeholder 1 -->
+          <div
+            class="rounded-2xl border border-dashed border-slate-700 bg-slate-900/40 p-5 flex flex-col justify-between"
+          >
+            <div>
+              <h3 class="font-semibold text-slate-200 mb-2">
+                Project Title #1
+              </h3>
+              <p class="text-xs text-slate-400 mb-3">
+                Short description of the project. Tech stack, problem solved,
+                and impact.
+              </p>
+            </div>
+            <p class="text-[11px] text-slate-500 mt-2 italic">
+              Placeholder – you can replace this card with a real project later.
+            </p>
+          </div>
+
+          <!-- Project card placeholder 2 -->
+          <div
+            class="rounded-2xl border border-dashed border-slate-700 bg-slate-900/40 p-5 flex flex-col justify-between"
+          >
+            <div>
+              <h3 class="font-semibold text-slate-200 mb-2">
+                Project Title #2
+              </h3>
+              <p class="text-xs text-slate-400 mb-3">
+                Short description of the project. Tech stack, problem solved,
+                and impact.
+              </p>
+            </div>
+            <p class="text-[11px] text-slate-500 mt-2 italic">
+              Placeholder – customize this with details when you're ready.
+            </p>
+          </div>
+
+          <!-- Project card placeholder 3 -->
+          <div
+            class="rounded-2xl border border-dashed border-slate-700 bg-slate-900/40 p-5 flex flex-col justify-between"
+          >
+            <div>
+              <h3 class="font-semibold text-slate-200 mb-2">
+                Project Title #3
+              </h3>
+              <p class="text-xs text-slate-400 mb-3">
+                Short description of the project. Tech stack, problem solved,
+                and impact.
+              </p>
+            </div>
+            <p class="text-[11px] text-slate-500 mt-2 italic">
+              Placeholder – later you can link GitHub / live demo here.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+      <section id="experience">
+        <p
+          class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+        >
+          Work Experience
+        </p>
+        <h2 class="text-2xl font-semibold mb-6">Where I've Worked</h2>
+
+        <div class="space-y-6">
+          <!-- Job 1 -->
+          <article
+            class="rounded-2xl border border-slate-800 bg-slate-900/60 p-5"
+          >
+            <div
+              class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2"
+            >
+              <h3 class="font-semibold text-slate-100">
+                Job Title – Company Name
+              </h3>
+              <p class="text-xs text-slate-400">
+                Month Year – Present · Location
+              </p>
+            </div>
+            <p class="text-sm text-slate-300 mb-2">
+              One-line summary of your role and responsibilities.
+            </p>
+            <ul class="list-disc list-inside text-sm text-slate-400 space-y-1">
+              <li>
+                Designed and built [feature] using [tech / stack], improving
+                [metric].
+              </li>
+              <li>Worked with [team / stakeholders] to [result or outcome].</li>
+              <li>
+                Implemented [tool / workflow] to make [process] more efficient.
+              </li>
+            </ul>
+          </article>
+
+          <!-- Job 2 (optional placeholder) -->
+          <article
+            class="rounded-2xl border border-slate-800 bg-slate-900/40 p-5"
+          >
+            <div
+              class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2"
+            >
+              <h3 class="font-semibold text-slate-100">
+                Job Title – Company Name
+              </h3>
+              <p class="text-xs text-slate-400">
+                Month Year – Month Year · Location
+              </p>
+            </div>
+            <p class="text-sm text-slate-300 mb-2">
+              Another experience or internship – adjust or remove as needed.
+            </p>
+            <ul class="list-disc list-inside text-sm text-slate-400 space-y-1">
+              <li>Collaborated on [project] using [tech stack].</li>
+              <li>
+                Analyzed [data / problem] to provide [insight / improvement].
+              </li>
+              <li>Documented and presented work to [team / stakeholders].</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education">
+        <p
+          class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+        >
+          Education
+        </p>
+        <h2 class="text-2xl font-semibold mb-6">Academic Background</h2>
+
+        <div class="space-y-4">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
+            <h3 class="font-semibold text-slate-100">
+              Degree Name – University Name
+            </h3>
+            <p class="text-xs text-slate-400 mb-1">
+              Month Year – Month Year · City, Country
+            </p>
+            <p class="text-sm text-slate-300">
+              Short line about your focus, e.g. "Focused on algorithms, data
+              structures, web development, and databases."
+            </p>
+          </div>
+
+          <!-- Another degree (optional) -->
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-5">
+            <h3 class="font-semibold text-slate-100">
+              Previous Degree – College / School Name
+            </h3>
+            <p class="text-xs text-slate-400 mb-1">
+              Month Year – Month Year · City, Country
+            </p>
+            <p class="text-sm text-slate-300">
+              Optional: mention GPA, awards, or relevant coursework.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section id="certifications">
+        <p
+          class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+        >
+          Certifications
+        </p>
+        <h2 class="text-2xl font-semibold mb-4">Certifications & Courses</h2>
+
+        <ul class="space-y-3 text-sm text-slate-300">
+          <li class="flex justify-between gap-4">
+            <span> Certification Name – Platform / Issuer </span>
+            <span class="text-xs text-slate-500"> Year </span>
+          </li>
+          <li class="flex justify-between gap-4">
+            <span> Certification Name – Platform / Issuer </span>
+            <span class="text-xs text-slate-500"> Year </span>
+          </li>
+          <li class="flex justify-between gap-4">
+            <span> Online Course / Specialization Name – Platform </span>
+            <span class="text-xs text-slate-500"> Year </span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <p
+          class="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3"
+        >
+          Contact
+        </p>
+
+        <h2 class="text-2xl font-semibold mb-4">Let's Connect</h2>
+
+        <p class="text-slate-300 text-sm mb-4">
+          I'm open to software development roles, data roles, internships, and
+          interesting project collaborations. Email is the best way to reach me
+          — and you can also find me on LinkedIn and GitHub.
+        </p>
+
+        <div class="flex flex-col md:flex-row md:items-center gap-4 mb-6">
+          <a
+            href="mailto:gauravpsingh720@gmail.com"
+            class="px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-500 transition w-max"
+          >
+            Email Me
+          </a>
+          <div class="flex flex-wrap gap-3 text-sm">
+            <a
+              href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+              target="_blank"
+              class="underline underline-offset-4 text-slate-300 hover:text-indigo-300"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/YOUR-GITHUB"
+              target="_blank"
+              class="underline underline-offset-4 text-slate-300 hover:text-indigo-300"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <form class="grid md:grid-cols-2 gap-4 max-w-xl">
+          <div class="md:col-span-1">
+            <label class="block text-xs text-slate-400 mb-1">Name</label>
+            <input
+              type="text"
+              class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="md:col-span-1">
+            <label class="block text-xs text-slate-400 mb-1">Email</label>
+            <input
+              type="email"
+              class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500"
+              placeholder="you@example.com"
+            />
+          </div>
+          <div class="md:col-span-2">
+            <label class="block text-xs text-slate-400 mb-1">Message</label>
+            <textarea
+              rows="4"
+              class="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500"
+              placeholder="Write your message..."
+            ></textarea>
+          </div>
+          <div class="md:col-span-2">
+            <button
+              type="submit"
+              class="px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-500 transition"
+            >
+              Send Message (UI only)
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800">
+      <div
+        class="max-w-5xl mx-auto px-4 py-4 text-xs text-slate-500 flex flex-col md:flex-row items-center justify-between gap-2"
+      >
+        <p>
+          © <span id="year"></span> Gaurav Pramod Singh. All rights reserved.
+        </p>
+        <p>
+          Built with <span class="text-indigo-400">HTML</span> &amp;
+          <span class="text-indigo-400">Tailwind CSS</span>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Small JS for mobile nav + year -->
+    <script>
+      const menuButton = document.getElementById("menuButton");
+      const mobileMenu = document.getElementById("mobileMenu");
+      if (menuButton && mobileMenu) {
+        menuButton.addEventListener("click", () => {
+          mobileMenu.classList.toggle("hidden");
+        });
+      }
+
+      // Set current year in footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
