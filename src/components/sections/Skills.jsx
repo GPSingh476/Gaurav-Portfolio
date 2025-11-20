@@ -25,8 +25,9 @@ function Skills() {
           </h3>
           <ul className="space-y-1 text-sm text-slate-300">
             <li>React</li>
-            <li>Node.js / Express</li>
+            <li>Vite</li>
             <li>Tailwind CSS</li>
+            <li>Node.js / Express (learning)</li>
             <li>MongoDB / MySQL</li>
           </ul>
         </div>
@@ -38,8 +39,8 @@ function Skills() {
           <ul className="space-y-1 text-sm text-slate-300">
             <li>Git &amp; GitHub</li>
             <li>REST APIs</li>
-            <li>Data Analysis (Pandas / Excel)</li>
-            <li>Basic Cloud / Deployments</li>
+            <li>Data Analysis (Pandas, Excel, SQL)</li>
+            <li>Basic cloud &amp; deployments (Vercel / Netlify)</li>
           </ul>
         </div>
       </div>

@@ -8,16 +8,18 @@ function Certifications() {
 
       <ul className="space-y-3 text-sm text-slate-300">
         <li className="flex justify-between gap-4">
-          <span>Certification Name – Platform / Issuer</span>
-          <span className="text-xs text-slate-500">Year</span>
+          <span>Google Data Analytics Professional Certificate – Coursera</span>
+          <span className="text-xs text-slate-500">In Progress</span>
         </li>
         <li className="flex justify-between gap-4">
-          <span>Certification Name – Platform / Issuer</span>
-          <span className="text-xs text-slate-500">Year</span>
+          <span>Microsoft Azure Data Engineer (DP-203) – Self-study</span>
+          <span className="text-xs text-slate-500">Planned</span>
         </li>
         <li className="flex justify-between gap-4">
-          <span>Online Course / Specialization Name – Platform</span>
-          <span className="text-xs text-slate-500">Year</span>
+          <span>
+            Additional courses in web development, algorithms, and databases
+          </span>
+          <span className="text-xs text-slate-500">Ongoing</span>
         </li>
       </ul>
     </section>
@@ -25,4 +27,3 @@ function Certifications() {
 }
 
 export default Certifications;
-

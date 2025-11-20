@@ -1,4 +1,83 @@
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [isSending, setIsSending] = useState(false);
+  const [status, setStatus] = useState(null); // { type: "success" | "error", message: string }
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSending(true);
+    setStatus(null);
+
+    try {
+      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+      // These keys come from your .env.local
+      if (!serviceId || !templateId || !publicKey) {
+        console.error("Missing EmailJS environment variables");
+        setStatus({
+          type: "error",
+          message:
+            "Email service is not configured correctly. Please try again later.",
+        });
+        setIsSending(false);
+        return;
+      }
+
+      // The properties here (from_name, from_email, message)
+      // must match the variables in your EmailJS template
+      const response = await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        publicKey
+      );
+
+      console.log("EmailJS response:", response);
+
+      setStatus({
+        type: "success",
+        message: "Thank you! Your message has been sent.",
+      });
+
+      // Clear the form
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("EmailJS error:", error);
+      setStatus({
+        type: "error",
+        message:
+          "Something went wrong while sending your message. Please try again later.",
+      });
+    } finally {
+      setIsSending(false);
+    }
+  };
+
   return (
     <section id="contact">
       <p className="text-sm font-medium uppercase tracking-[0.2em] text-indigo-400 mb-3">
@@ -39,11 +118,19 @@ function Contact() {
         </div>
       </div>
 
-      <form className="grid md:grid-cols-2 gap-4 max-w-xl">
+      {/* Contact Form */}
+      <form
+        className="grid md:grid-cols-2 gap-4 max-w-xl"
+        onSubmit={handleSubmit}
+      >
         <div className="md:col-span-1">
           <label className="block text-xs text-slate-400 mb-1">Name</label>
           <input
             type="text"
+            name="name"
+            required
+            value={formData.name}
+            onChange={handleChange}
             className="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500"
             placeholder="Your Name"
           />
@@ -52,6 +139,10 @@ function Contact() {
           <label className="block text-xs text-slate-400 mb-1">Email</label>
           <input
             type="email"
+            name="email"
+            required
+            value={formData.email}
+            onChange={handleChange}
             className="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500"
             placeholder="you@example.com"
           />
@@ -60,17 +151,34 @@ function Contact() {
           <label className="block text-xs text-slate-400 mb-1">Message</label>
           <textarea
             rows="4"
+            name="message"
+            required
+            value={formData.message}
+            onChange={handleChange}
             className="w-full rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:outline-none focus:border-indigo-500"
             placeholder="Write your message..."
           ></textarea>
         </div>
-        <div className="md:col-span-2">
+        <div className="md:col-span-2 flex flex-col gap-2">
           <button
             type="submit"
-            className="px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-500 transition"
+            disabled={isSending}
+            className="px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-500 disabled:opacity-60 disabled:cursor-not-allowed transition w-max"
           >
-            Send Message (UI only)
+            {isSending ? "Sending..." : "Send Message"}
           </button>
+
+          {status && (
+            <p
+              className={`text-xs ${
+                status.type === "success"
+                  ? "text-emerald-400"
+                  : "text-red-400"
+              }`}
+            >
+              {status.message}
+            </p>
+          )}
         </div>
       </form>
     </section>
