@@ -100,7 +100,7 @@ function Contact() {
         </a>
         <div className="flex flex-wrap gap-3 text-sm">
           <a
-            href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+            href="https://www.linkedin.com/in/gauravpramodsingh/"
             target="_blank"
             rel="noreferrer"
             className="underline underline-offset-4 text-slate-300 hover:text-indigo-300"
@@ -108,7 +108,7 @@ function Contact() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/YOUR-GITHUB"
+            href="https://github.com/GPSingh476/"
             target="_blank"
             rel="noreferrer"
             className="underline underline-offset-4 text-slate-300 hover:text-indigo-300"

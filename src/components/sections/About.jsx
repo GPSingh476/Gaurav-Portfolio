@@ -7,8 +7,8 @@ function About() {
             About Me
           </p>
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Hi, I'm{" "}
-            <span className="text-indigo-400">Gaurav Pramod Singh</span> —{" "}
+            Hi, I'm <span className="text-indigo-400">Gaurav Pramod Singh</span>{" "}
+            —{" "}
             <span className="text-slate-300">
               Aspiring Software Developer &amp; Data Analyst
             </span>
@@ -58,13 +58,13 @@ function About() {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="w-40 h-40 md:w-48 md:h-48 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-slate-700 p-[2px]">
-            <div className="w-full h-full rounded-3xl bg-slate-950 flex items-center justify-center">
-              <span className="text-slate-500 text-xs text-center px-4">
-                Your Photo / Logo
-                <br />
-                (replace this later)
-              </span>
+          <div className="flex justify-center md:justify-end">
+            <div className="w-40 h-40 md:w-48 md:h-48 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-slate-700 p-[3px]">
+              <img
+                src="/assets/me.jpeg" 
+                alt="Gaurav Pramod Singh"
+                className="w-full h-full object-cover rounded-3xl"
+              />
             </div>
           </div>
         </div>
