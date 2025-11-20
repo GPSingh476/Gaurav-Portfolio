@@ -23,7 +23,7 @@ function About() {
             back-end logic and databases.
           </p>
 
-          <p className="text-slate-400 leading-relaxed mb-4">
+          <p className="text-slate-300 leading-relaxed mb-4">
             I have hands-on experience as a Student Technician at Oregon State
             University, and previous industry experience as a Business Data
             Analyst at Mepro Tech and a Data Analyst Intern at Dotech
@@ -32,7 +32,7 @@ function About() {
             decision-making.
           </p>
 
-          <p className="text-slate-400 leading-relaxed mb-6">
+          <p className="text-slate-300 leading-relaxed mb-6">
             Right now, I&apos;m focused on strengthening my skills in{" "}
             <span className="text-slate-200 font-medium">
               JavaScript, React, Node.js, Python, and SQL

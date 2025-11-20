@@ -14,7 +14,7 @@ function Experience() {
               Student Technician – Oregon State University
             </h3>
             <p className="text-xs text-slate-400">
-              2024 – Present · Corvallis, OR (USA)
+              May 2024 – Present · Corvallis, OR (USA)
             </p>
           </div>
           <p className="text-sm text-slate-300 mb-2">
@@ -44,7 +44,7 @@ function Experience() {
               Business Data Analyst – Mepro Tech
             </h3>
             <p className="text-xs text-slate-400">
-              Year – Year · Mumbai, India
+              Jun 2022 – Aug 2023 · Mumbai, India
             </p>
           </div>
           <p className="text-sm text-slate-300 mb-2">
@@ -74,7 +74,7 @@ function Experience() {
               Data Analyst Intern – Dotech Technologies
             </h3>
             <p className="text-xs text-slate-400">
-              Year – Year · Location
+              Mar 2021 – Aug 2021 · Remote, India
             </p>
           </div>
           <p className="text-sm text-slate-300 mb-2">

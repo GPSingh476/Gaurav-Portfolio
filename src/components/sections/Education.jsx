@@ -27,14 +27,16 @@ function Education() {
         {/* Previous degree – fill in details later */}
         <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-5">
           <h3 className="font-semibold text-slate-100">
-            Bachelor&apos;s Degree – [Your University Name]
+            Bachelor&apos;s Degree – Thakur College of Science and Commerce
           </h3>
           <p className="text-xs text-slate-400 mb-1">
-            Year – Year · City, Country
+            Jun 2019 - Apr 2022 · Mumbai, India
           </p>
           <p className="text-sm text-slate-300">
-            You can update this section with your bachelor&apos;s degree, major,
-            university name, and any key achievements or relevant coursework.
+            My bachelor’s coursework included programming (C, Python, Java),
+            data structures, algorithms, databases, operating systems, computer
+            networks, and software engineering, along with Linux, web
+            technologies, and applied mathematics.
           </p>
         </div>
       </div>
