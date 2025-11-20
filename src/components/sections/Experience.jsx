@@ -37,6 +37,45 @@ function Experience() {
           </ul>
         </article>
 
+        {/* TechLuminix – Software Developer Intern */}
+        <article className="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
+            <h3 className="font-semibold text-slate-100">
+              Software Developer Intern – TechLuminix Private Limited
+            </h3>
+            <p className="text-xs text-slate-400">
+              Jun 2024 – Sep 2024 · Mumbai, India (Remote)
+            </p>
+          </div>
+
+          <p className="text-sm text-slate-300 mb-2">
+            Completed a hands-on Software Developer internship where I gained
+            practical exposure to backend concepts, application structure, and
+            real-world coding tasks, while collaborating with a technical mentor
+            and team members.
+          </p>
+
+          <ul className="list-disc list-inside text-sm text-slate-400 space-y-1">
+            <li>
+              Learned and practiced foundational software development concepts,
+              logic building, and coding exercises based on real-world
+              scenarios.
+            </li>
+            <li>
+              Worked with mentors to understand backend architecture and how
+              different components of an application interact.
+            </li>
+            <li>
+              Contributed to internal tasks and completed assigned modules with
+              a consistent learning mindset and attention to detail.
+            </li>
+            <li>
+              Demonstrated steady dedication and teamwork, actively seeking
+              feedback and improving throughout the internship.
+            </li>
+          </ul>
+        </article>
+
         {/* Mepro Tech – Business Data Analyst */}
         <article className="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
@@ -49,7 +88,8 @@ function Experience() {
           </div>
           <p className="text-sm text-slate-300 mb-2">
             Worked with business and technical teams to analyze data, streamline
-            operations, and support decision-making using dashboards and reports.
+            operations, and support decision-making using dashboards and
+            reports.
           </p>
           <ul className="list-disc list-inside text-sm text-slate-400 space-y-1">
             <li>

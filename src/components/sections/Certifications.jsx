@@ -7,20 +7,23 @@ function Certifications() {
       <h2 className="text-2xl font-semibold mb-4">Certifications &amp; Courses</h2>
 
       <ul className="space-y-3 text-sm text-slate-300">
-        <li className="flex justify-between gap-4">
-          <span>Google Data Analytics Professional Certificate – Coursera</span>
-          <span className="text-xs text-slate-500">In Progress</span>
-        </li>
-        <li className="flex justify-between gap-4">
-          <span>Microsoft Azure Data Engineer (DP-203) – Self-study</span>
-          <span className="text-xs text-slate-500">Planned</span>
-        </li>
-        <li className="flex justify-between gap-4">
-          <span>
-            Additional courses in web development, algorithms, and databases
+
+        {/* Power BI Certificate */}
+        <li className="flex justify-between items-center gap-4">
+          <a
+            href="/assets/documents/PowerBiCertificate.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4 text-indigo-300 hover:text-indigo-400 transition"
+          >
+            Microsoft Power BI Certification
+          </a>
+
+          <span className="text-xs text-slate-500 whitespace-nowrap">
+            Completed · Mar 2023
           </span>
-          <span className="text-xs text-slate-500">Ongoing</span>
         </li>
+
       </ul>
     </section>
   );

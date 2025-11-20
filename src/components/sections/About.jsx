@@ -7,7 +7,7 @@ function About() {
             About Me
           </p>
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Hi, I'm <span className="text-indigo-400">Gaurav Pramod Singh</span>{" "}
+            Hi, I&apos;m <span className="text-indigo-400">Gaurav Pramod Singh</span>{" "}
             —{" "}
             <span className="text-slate-300">
               Aspiring Software Developer &amp; Data Analyst
@@ -15,30 +15,36 @@ function About() {
           </h1>
 
           <p className="text-slate-300 leading-relaxed mb-4">
-            I am currently pursuing a Master of Engineering in Computer Science
-            at Oregon State University. I enjoy building clean, user-friendly
-            applications and using data to solve real-world problems. My
-            interests sit at the intersection of software development and data
-            analytics, and I like working end-to-end – from front-end UI to
-            back-end logic and databases.
+            I am a graduate student pursuing a Master of Engineering in Computer
+            Science at Oregon State University, where I focus on software
+            development, full-stack engineering, and data-driven problem solving.
+            I enjoy building clean, responsive applications and working across the
+            full stack — from front-end UI to back-end logic and databases.
           </p>
 
           <p className="text-slate-300 leading-relaxed mb-4">
-            I have hands-on experience as a Student Technician at Oregon State
-            University, and previous industry experience as a Business Data
-            Analyst at Mepro Tech and a Data Analyst Intern at Dotech
-            Technologies. Across these roles, I&apos;ve worked with SQL,
-            spreadsheets, dashboards, and process improvements to support better
-            decision-making.
+            I have hands-on technical experience as a Student Technician at Oregon
+            State University and industry experience as a Software Developer Intern
+            at TechLuminix. Previously, I worked as a Business Data Analyst at
+            Mepro Tech and a Data Analyst Intern at Dotech Technologies, where I
+            gained practical experience with SQL, spreadsheets, dashboards, and
+            process optimization to support better decision-making.
+          </p>
+
+          <p className="text-slate-300 leading-relaxed mb-4">
+            My academic background includes a Bachelor of Science in Computer
+            Science from Thakur College of Science and Commerce, where I built a
+            strong foundation in programming, data structures, algorithms,
+            databases, and software engineering.
           </p>
 
           <p className="text-slate-300 leading-relaxed mb-6">
-            Right now, I&apos;m focused on strengthening my skills in{" "}
-            <span className="text-slate-200 font-medium">
-              JavaScript, React, Node.js, Python, and SQL
+            Currently, I&apos;m strengthening my skills in{" "}
+            <span className="font-medium text-indigo-300">
+              JavaScript, React, Node.js, Express, Python, and SQL
             </span>{" "}
-            while building projects that demonstrate solid engineering
-            fundamentals, data analysis, and clear communication of results.
+            while building full-stack projects that demonstrate solid engineering
+            fundamentals, clean design, and clear communication of results.
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -58,14 +64,12 @@ function About() {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="flex justify-center md:justify-end">
-            <div className="w-40 h-40 md:w-48 md:h-48 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-slate-700 p-[3px]">
-              <img
-                src="/assets/me.jpeg" 
-                alt="Gaurav Pramod Singh"
-                className="w-full h-full object-cover rounded-3xl"
-              />
-            </div>
+          <div className="w-40 h-40 md:w-48 md:h-48 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-slate-700 p-[3px]">
+            <img
+              src="/assets/me.jpeg"
+              alt="Gaurav Pramod Singh"
+              className="w-full h-full object-cover rounded-3xl"
+            />
           </div>
         </div>
       </div>
