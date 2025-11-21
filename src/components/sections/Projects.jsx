@@ -12,7 +12,7 @@ function Projects() {
       description:
         "This portfolio itself, built as a single-page React application with Tailwind CSS, EmailJS contact integration, and Vite for fast development and deployment.",
       tech: ["React", "Vite", "Tailwind CSS", "EmailJS"],
-      liveUrl: "https://gaurav-portfolio-tawny.vercel.app/", 
+      // liveUrl: "https://gaurav-portfolio-tawny.vercel.app/", 
     },
     {
       title: "Parks & Recreation SQL Analytics",
