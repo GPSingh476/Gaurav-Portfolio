@@ -1,22 +1,24 @@
 function Projects() {
   const projects = [
     {
-      title: "Snake Menagerie (Graphics Project)",
+      title: "Anime & Manga Search App",
       description:
-        "OpenGL / GLSL project exploring procedural animation, lighting, and rendering of a snake scene as part of CS graphics coursework.",
-      tech: ["C++", "OpenGL", "GLSL"],
+        "A React-based web application that lets users search for anime and manga using a public API. Includes real-time search, score filtering, and a clean, responsive UI. Deployed on Vercel.",
+      tech: ["React", "API Integration", "Tailwind CSS", "Vite"],
+      liveUrl: "https://anime-manga-search.vercel.app/",
+    },
+    {
+      title: "Personal Portfolio Website",
+      description:
+        "This portfolio itself, built as a single-page React application with Tailwind CSS, EmailJS contact integration, and Vite for fast development and deployment.",
+      tech: ["React", "Vite", "Tailwind CSS", "EmailJS"],
+      liveUrl: "https://gaurav-portfolio-tawny.vercel.app/", 
     },
     {
       title: "Parks & Recreation SQL Analytics",
       description:
         "Data analysis project using SQL to explore employee demographics, salaries, and HR metrics based on a fictional Parks & Recreation dataset.",
       tech: ["MySQL", "SQL", "Joins", "Aggregations"],
-    },
-    {
-      title: "Personal Portfolio Website",
-      description:
-        "This portfolio itself, built as a single-page React application with Tailwind CSS, EmailJS contact integration, and Vite for fast development.",
-      tech: ["React", "Vite", "Tailwind CSS", "EmailJS"],
     },
   ];
 
@@ -46,7 +48,8 @@ function Projects() {
                 {project.description}
               </p>
             </div>
-            <div className="flex flex-wrap gap-2 mt-2">
+
+            <div className="flex flex-wrap gap-2 mt-2 mb-3">
               {project.tech.map((tag) => (
                 <span
                   key={tag}
@@ -56,6 +59,19 @@ function Projects() {
                 </span>
               ))}
             </div>
+
+            {project.liveUrl && (
+              <div className="mt-auto">
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xs text-indigo-400 underline hover:text-indigo-300"
+                >
+                  Live Demo
+                </a>
+              </div>
+            )}
           </div>
         ))}
       </div>
