@@ -1,6 +1,13 @@
 function Projects() {
   const projects = [
     {
+      title: "Stock Market Tracker",
+      description:
+        "A real-time stock market tracking app that fetches live stock prices using public APIs. Includes clean UI, instant search, price updates, and responsive design. Built with React and deployed on Vercel.",
+      tech: ["React", "API Integration", "Tailwind CSS", "Vite"],
+      liveUrl: "https://stock-market-tracker-wheat.vercel.app/",
+    },
+    {
       title: "Anime & Manga Search App",
       description:
         "A React-based web application that lets users search for anime and manga using a public API. Includes real-time search, score filtering, and a clean, responsive UI. Deployed on Vercel.",
@@ -12,7 +19,7 @@ function Projects() {
       description:
         "This portfolio itself, built as a single-page React application with Tailwind CSS, EmailJS contact integration, and Vite for fast development and deployment.",
       tech: ["React", "Vite", "Tailwind CSS", "EmailJS"],
-      // liveUrl: "https://gaurav-portfolio-tawny.vercel.app/", 
+      // liveUrl: "https://gaurav-portfolio.vercel.app/",
     },
     {
       title: "Parks & Recreation SQL Analytics",

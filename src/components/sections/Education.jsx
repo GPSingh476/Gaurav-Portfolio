@@ -7,7 +7,7 @@ function Education() {
       <h2 className="text-2xl font-semibold mb-6">Academic Background</h2>
 
       <div className="space-y-4">
-        {/* OSU MEng */}
+
         <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
           <h3 className="font-semibold text-slate-100">
             Master of Engineering in Computer Science – Oregon State University
@@ -24,7 +24,6 @@ function Education() {
           </p>
         </div>
 
-        {/* Previous degree – fill in details later */}
         <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-5">
           <h3 className="font-semibold text-slate-100">
             Bachelor&apos;s Degree – Thakur College of Science and Commerce

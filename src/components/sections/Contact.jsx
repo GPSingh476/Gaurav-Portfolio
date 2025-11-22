@@ -8,7 +8,7 @@ function Contact() {
     message: "",
   });
   const [isSending, setIsSending] = useState(false);
-  const [status, setStatus] = useState(null); // { type: "success" | "error", message: string }
+  const [status, setStatus] = useState(null); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +28,7 @@ function Contact() {
       const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
       const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-      // These keys come from your .env.local
+
       if (!serviceId || !templateId || !publicKey) {
         console.error("Missing EmailJS environment variables");
         setStatus({
@@ -40,8 +40,6 @@ function Contact() {
         return;
       }
 
-      // The properties here (from_name, from_email, message)
-      // must match the variables in your EmailJS template
       const response = await emailjs.send(
         serviceId,
         templateId,
@@ -60,7 +58,7 @@ function Contact() {
         message: "Thank you! Your message has been sent.",
       });
 
-      // Clear the form
+
       setFormData({
         name: "",
         email: "",
