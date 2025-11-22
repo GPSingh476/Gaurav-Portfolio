@@ -21,12 +21,6 @@ function Projects() {
       tech: ["React", "Vite", "Tailwind CSS", "EmailJS"],
       // liveUrl: "https://gaurav-portfolio.vercel.app/",
     },
-    {
-      title: "Parks & Recreation SQL Analytics",
-      description:
-        "Data analysis project using SQL to explore employee demographics, salaries, and HR metrics based on a fictional Parks & Recreation dataset.",
-      tech: ["MySQL", "SQL", "Joins", "Aggregations"],
-    },
   ];
 
   return (
