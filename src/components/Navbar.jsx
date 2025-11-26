@@ -37,7 +37,7 @@ function Navbar() {
             </a>
           ))}
           <a
-            href="/assets/Gaurav_Pramod_Singh_Resume.pdf"
+            href="/assets/Resume.pdf"
             target="_blank"
             className="px-3 py-1 rounded-full border border-indigo-500 text-indigo-300 hover:bg-indigo-600 hover:text-white transition"
           >
@@ -70,7 +70,7 @@ function Navbar() {
               </a>
             ))}
             <a
-              href="/assets/Gaurav_Pramod_Singh_Resume.pdf"
+              href="/assets/Resume.pdf"
               target="_blank"
               className="px-3 py-1 rounded-full border border-indigo-500 text-indigo-300 hover:bg-indigo-600 hover:text-white transition w-max"
             >
