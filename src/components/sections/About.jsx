@@ -11,17 +11,15 @@ function About() {
             Hi, I&apos;m <span className="text-indigo-400">Gaurav Pramod Singh</span>{" "}
             —{" "}
             <span className="text-slate-300">
-              Aspiring <span className="text-indigo-400">Software Engineer</span> &{" "}
+              <span className="text-indigo-400">Software Engineer</span> &{" "}
               <span className="text-indigo-400">Full Stack Developer</span>
             </span>
           </h1>
 
           <p className="text-slate-300 leading-relaxed mb-4">
-            I am a Master of Engineering student in Computer Science at Oregon State
-            University, graduating in{" "}
-            <span className="text-indigo-400 font-medium">December 2025</span>, with experience in
-            software engineering and full-stack development. I specialize in building
-            scalable, high-performance applications using{" "}
+            I am a <span className="text-indigo-400 font-medium">Computer Science graduate</span> with hands-on experience in 
+            software engineering and full-stack development. I specialize in building scalable, 
+            high-performance applications using{" "}
             <span className="text-indigo-400 font-medium">
               JavaScript, React, Node.js, Python, SQL, and MongoDB
             </span>.
@@ -44,7 +42,7 @@ function About() {
           </p>
 
           <p className="text-slate-300 leading-relaxed mb-6">
-            I&apos;m currently expanding my expertise in{" "}
+            I&apos;m continually expanding my expertise in{" "}
             <span className="text-indigo-400 font-medium">full-stack engineering</span>, focusing on
             UI/UX improvements, reusable component design, API integration, database
             optimization, and cloud-ready application development. I’m passionate about
