@@ -30,9 +30,9 @@ function Projects() {
       </p>
       <h2 className="text-2xl font-semibold mb-2">Featured Projects</h2>
       <p className="text-slate-400 text-sm mb-6">
-        Here are a few projects that represent what I&apos;ve been working on
-        recently. I am actively building more full-stack and data-focused
-        projects, which I will continue to add here.
+        Here are a few full-stack projects that showcase what I’ve been working
+        on recently. I’m actively building more applications using modern web
+        technologies and will continue adding new projects here.
       </p>
 
       <div className="grid md:grid-cols-3 gap-6">

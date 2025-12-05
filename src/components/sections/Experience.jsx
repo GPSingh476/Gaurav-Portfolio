@@ -49,90 +49,84 @@ function Experience() {
           </div>
 
           <p className="text-sm text-slate-300 mb-2">
-            Completed a hands-on Software Developer internship where I gained
-            practical exposure to backend concepts, application structure, and
-            real-world coding tasks, while collaborating with a technical mentor
-            and team members.
+            Completed a hands-on Software Developer internship focused on
+            strengthening core engineering skills, understanding real-world
+            application architecture, and contributing to internal development
+            workflows under team mentorship.
           </p>
 
           <ul className="list-disc list-inside text-sm text-slate-400 space-y-1">
             <li>
-              Learned and practiced foundational software development concepts,
-              logic building, and coding exercises based on real-world
-              scenarios.
+              Gained hands-on experience with core software development
+              concepts, including coding fundamentals, logic building, and
+              application structure.
             </li>
             <li>
-              Worked with mentors to understand backend architecture and how
-              different components of an application interact.
+              Contributed to internal development tasks and assisted in
+              completing assigned modules under team mentorship.
             </li>
             <li>
-              Contributed to internal tasks and completed assigned modules with
-              a consistent learning mindset and attention to detail.
+              Collaborated with developers to understand backend workflows,
+              application architecture, and real-world development practices.
             </li>
             <li>
-              Demonstrated steady dedication and teamwork, actively seeking
-              feedback and improving throughout the internship.
+              Demonstrated strong dedication, consistent learning habits, and
+              the ability to adapt quickly to new tools and project
+              requirements.
+            </li>
+            <li>
+              Improved team productivity by supporting documentation, testing
+              small features, and contributing to collaborative problem-solving
+              sessions.
             </li>
           </ul>
         </article>
 
-        {/* Mepro Tech – Business Data Analyst */}
+        {/* Mepro Tech – Software Engineer */}
         <article className="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
             <h3 className="font-semibold text-slate-100">
-              Business Data Analyst – Mepro Tech
+              Software Engineer – Mepro Tech
             </h3>
             <p className="text-xs text-slate-400">
               Jun 2022 – Aug 2023 · Mumbai, India
             </p>
           </div>
-          <p className="text-sm text-slate-300 mb-2">
-            Worked with business and technical teams to analyze data, streamline
-            operations, and support decision-making using dashboards and
-            reports.
-          </p>
-          <ul className="list-disc list-inside text-sm text-slate-400 space-y-1">
-            <li>
-              Used SQL and spreadsheets to clean, transform, and analyze
-              operational and financial data.
-            </li>
-            <li>
-              Helped create dashboards and reports that highlighted key
-              performance metrics and trends for stakeholders.
-            </li>
-            <li>
-              Collaborated with cross-functional teams to translate business
-              questions into measurable metrics and data-driven insights.
-            </li>
-          </ul>
-        </article>
 
-        {/* Dotech Technologies – Data Analyst Intern */}
-        <article className="rounded-2xl border border-slate-800 bg-slate-900/40 p-5">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
-            <h3 className="font-semibold text-slate-100">
-              Data Analyst Intern – Dotech Technologies
-            </h3>
-            <p className="text-xs text-slate-400">
-              Mar 2021 – Aug 2021 · Remote, India
-            </p>
-          </div>
           <p className="text-sm text-slate-300 mb-2">
-            Assisted in data collection, cleaning, and reporting to support
-            internal analytics and client projects.
+            Developed and optimized full-stack features across frontend,
+            backend, and database layers while improving system performance,
+            reliability, and development workflows in an Agile environment.
           </p>
+
           <ul className="list-disc list-inside text-sm text-slate-400 space-y-1">
             <li>
-              Helped prepare datasets for analysis and reporting using tools
-              like Excel and Python.
+              Developed full-stack features using JavaScript, React, Node.js,
+              Python, and MongoDB/SQL, boosting system stability and enhancing
+              UI responsiveness.
             </li>
             <li>
-              Supported the creation of visualizations and summary reports to
-              communicate findings to non-technical stakeholders.
+              Engineered and fine-tuned REST API endpoints and data pipelines,
+              raising backend throughput and cutting query latency by 20%.
             </li>
             <li>
-              Learned to work with real-world, messy data and deliver clear,
-              concise summaries.
+              Automated backend tasks, validation flows, and deployment
+              routines, reducing manual effort and production issues by 25%.
+            </li>
+            <li>
+              Refactored service layers and applied modular architecture
+              patterns, lowering bug recurrence and accelerating feature
+              delivery by 15–18%.
+            </li>
+            <li>
+              Contributed to Agile/Scrum ceremonies—including sprint planning,
+              stand-ups, and retrospectives—to support predictable and
+              high-quality releases.
+            </li>
+            <li>
+              Partnered with cross-functional teams to clarify technical
+              requirements and document system architecture, improving engineer
+              onboarding and alignment.
             </li>
           </ul>
         </article>
