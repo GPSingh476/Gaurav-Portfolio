@@ -17,37 +17,27 @@ function About() {
           </h1>
 
           <p className="text-slate-300 leading-relaxed mb-4">
-            I am a <span className="text-indigo-400 font-medium">Computer Science graduate</span> with hands-on experience in 
-            software engineering and full-stack development. I specialize in building scalable, 
-            high-performance applications using{" "}
+            I&apos;m a Computer Science graduate with hands-on experience building{" "}
+            <span className="text-indigo-400 font-medium">
+              scalable web apps, REST APIs, and cloud-based backend services
+            </span>{" "}
+            using{" "}
             <span className="text-indigo-400 font-medium">
               JavaScript, React, Node.js, Python, SQL, and MongoDB
-            </span>.
-          </p>
-
-          <p className="text-slate-300 leading-relaxed mb-4">
-            My industry background includes working as a{" "}
-            <span className="text-indigo-400 font-medium">Software Engineer</span> at Mepro Tech,
-            where I developed full-stack features, optimized{" "}
-            <span className="text-indigo-400 font-medium">RESTful APIs</span>, automated backend
-            workflows, and improved database performance. I also contributed to{" "}
-            <span className="text-indigo-400 font-medium">Agile</span> development practices and
-            supported CI/CD improvements across backend systems.
-          </p>
-
-          <p className="text-slate-300 leading-relaxed mb-4">
-            At TechLuminix, I strengthened my engineering fundamentals by enhancing internal
-            modules, improving code efficiency, documenting architecture, and collaborating
-            with teams to follow modern software engineering best practices.
+            </span>
+            .
           </p>
 
           <p className="text-slate-300 leading-relaxed mb-6">
-            I&apos;m continually expanding my expertise in{" "}
-            <span className="text-indigo-400 font-medium">full-stack engineering</span>, focusing on
-            UI/UX improvements, reusable component design, API integration, database
-            optimization, and cloud-ready application development. I’m passionate about
-            solving complex technical problems and delivering reliable, production-ready
-            software.
+            I&apos;ve shipped full-stack features at{" "}
+            <span className="text-indigo-400 font-medium">Mepro Tech</span> and built
+            serverless, event-driven backend workflows at{" "}
+            <span className="text-indigo-400 font-medium">Canoo</span> using{" "}
+            <span className="text-indigo-400 font-medium">
+              AWS (Lambda, DynamoDB, IoT)
+            </span>
+            . I care about clean architecture, reliability, performance, and
+            production-ready delivery.
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -81,3 +71,4 @@ function About() {
 }
 
 export default About;
+

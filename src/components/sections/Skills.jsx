@@ -9,53 +9,76 @@ function Skills() {
 
       <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-6">
         <div className="flex flex-wrap gap-3 text-sm">
-
           {/* ------------------ LANGUAGES ------------------ */}
-          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">JavaScript</span>
-          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">Python</span>
-          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">TypeScript</span>
-          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">C++</span>
-          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">Java</span>
+          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">
+            JavaScript
+          </span>
+          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">
+            Python
+          </span>
+          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">
+            TypeScript
+          </span>
+          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">
+            C++
+          </span>
+          <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 font-medium">
+            Java
+          </span>
 
           {/* ------------------ DATABASES ------------------ */}
-          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">MySQL</span>
-          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">Postgres</span>
-          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">SQL</span>
-          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">MongoDB</span>
+          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">
+            MySQL
+          </span>
+          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">
+            Postgres
+          </span>
+          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">
+            SQL
+          </span>
+          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">
+            MongoDB
+          </span>
+          <span className="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-medium">
+            MariaDB
+          </span>
 
-          {/* ------------------ FRAMEWORKS ------------------ */}
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">Node.js</span>
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">React.js</span>
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">Tailwind CSS</span>
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">RESTful APIs</span>
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">Vite</span>
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">JSON</span>
-          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">Express</span>
+          {/* ------------------ FRAMEWORKS & TOOLS ------------------ */}
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            React.js
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Next.js
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Node.js
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Flask
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Tailwind CSS
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Vite
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Git
+          </span>
+          <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-medium">
+            Jira
+          </span>
 
-          {/* ------------------ DEVOPS ------------------ */}
-          <span className="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-300 font-medium">Docker</span>
-          <span className="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-300 font-medium">CI/CD Pipelines</span>
-
-          {/* ------------------ Cloud ------------------ */}
+          {/* ------------------ CLOUD & DEVOPS ------------------ */}
           <span className="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-300 font-medium">
-            AWS (EC2, S3, Lambda)
+            AWS (Lambda, DynamoDB, IoT)
           </span>
           <span className="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-300 font-medium">
-            Google Cloud (GCP)
+            Docker
           </span>
-
-          {/* ------------------ ADDITIONAL ------------------ */}
-          <span className="px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 font-medium">Git & GitHub</span>
-          <span className="px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 font-medium">
-            Deployments (Vercel / Netlify)
+          <span className="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-300 font-medium">
+            CI/CD Pipelines
           </span>
-          <span className="px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 font-medium">
-            Tableau / Power BI
-          </span>
-          <span className="px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 font-medium">
-            Data Analysis (Pandas, Excel, SQL)
-          </span>
-
         </div>
       </div>
     </section>
