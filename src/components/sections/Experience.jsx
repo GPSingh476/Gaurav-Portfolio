@@ -11,7 +11,7 @@ function Experience() {
         <article className="rounded-2xl border border-slate-800 bg-slate-900/60 p-5">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
             <h3 className="font-semibold text-slate-100">
-              Student Technician – Oregon State University
+              Information Technology Technician – Oregon State University
             </h3>
             <p className="text-xs text-slate-400">
               May 2024 – Dec 2025 · Corvallis, OR (USA)
