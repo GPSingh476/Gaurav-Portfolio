@@ -17,27 +17,43 @@ function About() {
           </h1>
 
           <p className="text-slate-300 leading-relaxed mb-4">
-            I&apos;m a Computer Science graduate with hands-on experience building{" "}
+            Software Engineer and Computer Science graduate from{" "}
             <span className="text-indigo-400 font-medium">
-              scalable web apps, REST APIs, and cloud-based backend services
+              Oregon State University (M.Eng)
             </span>{" "}
-            using{" "}
+            with hands-on experience building and deploying{" "}
             <span className="text-indigo-400 font-medium">
-              JavaScript, React, Node.js, Python, SQL, and MongoDB
+              full-stack and backend systems
             </span>
             .
           </p>
 
-          <p className="text-slate-300 leading-relaxed mb-6">
-            I&apos;ve shipped full-stack features at{" "}
-            <span className="text-indigo-400 font-medium">Mepro Tech</span> and built
-            serverless, event-driven backend workflows at{" "}
-            <span className="text-indigo-400 font-medium">Canoo</span> using{" "}
+          <p className="text-slate-300 leading-relaxed mb-4">
+            Skilled in{" "}
             <span className="text-indigo-400 font-medium">
-              AWS (Lambda, DynamoDB, IoT)
+              JavaScript, Python, React, Node.js, Flask, SQL, MongoDB, and AWS
             </span>
-            . I care about clean architecture, reliability, performance, and
-            production-ready delivery.
+            , with experience developing{" "}
+            <span className="text-indigo-400 font-medium">RESTful APIs</span>,
+            optimizing backend performance, and contributing to{" "}
+            <span className="text-indigo-400 font-medium">CI/CD pipelines</span>{" "}
+            in Agile environments.
+          </p>
+
+          <p className="text-slate-300 leading-relaxed mb-6">
+            Previously worked at{" "}
+            <span className="text-indigo-400 font-medium">Mepro Tech</span> and{" "}
+            <span className="text-indigo-400 font-medium">TechLuminix</span>,
+            delivering production-ready features, improving code quality, and
+            collaborating across teams. Actively seeking{" "}
+            <span className="text-indigo-400 font-medium">
+              Software Engineer
+            </span>{" "}
+            or{" "}
+            <span className="text-indigo-400 font-medium">
+              Full-Stack Engineer
+            </span>{" "}
+            roles to build impactful, scalable products.
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -71,4 +87,3 @@ function About() {
 }
 
 export default About;
-
