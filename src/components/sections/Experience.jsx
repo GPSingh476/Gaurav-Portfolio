@@ -83,49 +83,6 @@ function Experience() {
           </ul>
         </article>
 
-        {/* Canoo – Backend Software Engineer Intern*/}
-        <article className="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
-            <h3 className="font-semibold text-slate-100">
-              Backend Software Engineer Intern – Canoo
-            </h3>
-            <p className="text-xs text-slate-400">
-              Dec 2023 – Mar 2024 · Remote, USA
-            </p>
-          </div>
-
-          <p className="text-sm text-slate-300 mb-2">
-            Built and enhanced backend systems and cloud-based services by
-            developing RESTful APIs, implementing event-driven architectures,
-            improving test coverage, and contributing to observability and CI/CD
-            workflows within an Agile engineering team.
-          </p>
-
-          <ul className="list-disc list-inside text-sm text-slate-400 space-y-1">
-            <li>
-              Developed RESTful backend APIs using Python (Flask) to support
-              internal dashboards and deployment workflows.
-            </li>
-            <li>
-              Collaborated on automated testing using Pytest, contributing to
-              more than 90% code coverage and integrating tests into a Jenkins
-              CI/CD pipeline.
-            </li>
-            <li>
-              Implemented event-driven backend services using AWS Lambda,
-              DynamoDB, and AWS IoT for scalable, fault-tolerant workflows.
-            </li>
-            <li>
-              Contributed to observability and monitoring through Datadog
-              dashboards, monitors, and alerts to improve system reliability.
-            </li>
-            <li>
-              Worked in an Agile/Scrum environment, participating in sprint
-              planning, daily standups, and task tracking via Jira.
-            </li>
-          </ul>
-        </article>
-
         {/* Mepro Tech – Software Engineer */}
         <article className="rounded-2xl border border-slate-800 bg-slate-900/50 p-5">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
